@@ -14,16 +14,19 @@
   },
   "main": "haste",
   "dependencies": {
+    "busboy": "0.2.4",
+    "chosen-js": "^1.8.5",
+    "connect": "^3.6.6",
     "connect-ratelimit": "0.0.7",
     "connect-route": "0.1.5",
-    "connect": "3.4.1",
-    "st": "1.1.0",
-    "winston": "0.6.2",
+    "jquery": "^3.3.1",
+    "memcached": "^2.2.2",
+    "pg": "^7.4.3",
+    "redis": "^0.8.1",
     "redis-url": "0.1.0",
-    "redis": "0.8.1",
+    "st": "^1.2.2",
     "uglify-js": "3.1.6",
-    "busboy": "0.2.4",
-    "pg": "4.1.1"
+    "winston": "^2.4.2"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
